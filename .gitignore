@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+.idea/
+.vscode/
+
+# Regenerable files (pickles are tied to the scikit-learn version that made them)
+model/*.pkl
+data/spam_raw.csv
